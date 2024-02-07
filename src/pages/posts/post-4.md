@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Mi cuarta entrada en el blog
-author: Alumno de Astro
-description: "Esta entrada aparecerá sola!"
+title: My Fourth Blog Post
+author: Astro Learner
+description: "This post will show up on its own!"
 image:
   url: "https://docs.astro.build/default-og-image.png"
-  alt: "La palabra 'astro' contra una ilustración de planetas y estrellas."
+  alt: "The word astro against an illustration of planets and stars."
 pubDate: 2022-08-08
-tags: ["astro", "éxitos"]
+tags: ["astro", "successes"]
 ---
 
-Esta entrada debería aparecer con las demás entradas de mi blog, porque `Astro.glob()` está devolviendo una lista de todas mis entradas para crear mi lista.
+This post should show up with my other blog posts, because `Astro.glob()` is returning a list of all my posts in order to create my list.

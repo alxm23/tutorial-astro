@@ -1,12 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
+const pageTitle = "My Astro Learning Blog";
 const allPosts = await Astro.glob("../pages/posts/*.md");
-const pageTitle = "Mi blog de aprendizaje de Astro";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <p>Aquí es donde publicaré sobre mi viaje de aprendizaje de Astro.</p>
+  <p>This is where I will post about my journey learning Astro.</p>
   <ul>
     {
       allPosts.map((post) => (
